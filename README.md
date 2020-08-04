@@ -13,7 +13,7 @@ chmod a+rx /data/data/com.termux/files/usr/bin/youtube-dl
 
 youtube-dl -U
 
-curl -sL https://github.com/efxtv/youtube-dl/blob/master/youtube-dl.sh
+curl -sL https://github.com/efxtv/youtube-dl/blob/master/youtube-dl.sh | bash
 
 youtube-dl YOUTUBE VIDEO URL
 
